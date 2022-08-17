@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu{
+    display: flex;
+    background-color: firebrick;    
+    justify-content: space-between;   
+    height: 48px;
+}
+
+.btns {   
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    color: cornsilk;
+    font-family: sans-serif;
+    height: 32px;    
+    line-height: 32px;
+    margin-right: 16px;
+}
+
+.btns li{
+    display: inline;
+    padding: 8px;
+}
+
+.btns li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.btns li a:hover{
+    color: burlywood;
+}
+
+.banner{
+    background-image: url(foto-banner.jpg);    
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+}
+
+.banner-info{
+    background-color: rgba(0, 0, 0, 70%);
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    padding:50px;
+}
+
+.banner-info h1{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 48px;
+}
+
+.banner-info p{
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 16px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
